@@ -17,7 +17,7 @@ social: true
 ---
         
 I obtained a PhD under the joint supervision of [Cordelia Schmid](http://lear.inrialpes.fr/~schmid),
-LEAR now [THOTH](http://www.thoth.inrialpes.fr), INRIA Grenoble, and [Frederic
+LEAR now [THOTH](http://thoth.inrialpes.fr), INRIA Grenoble, and [Frederic
 Jurie](http://jurie.users.greyc.fr), [GREYC](http://www.greyc.fr) [CNRS](http://www.cnrs.fr)
 UMR 6072, [University of Caen](www.unicaen.fr) and an Integrated Master of Technology in Mathematics
 and Computing from the [Indian Institute of Technology Delhi (IIT Delhi)](http://www.iitd.ac.in), India.  
