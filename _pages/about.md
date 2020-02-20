@@ -25,8 +25,10 @@ and Computing from the [Indian Institute of Technology Delhi (IIT Delhi)](http:/
 I was, prior to my PhD, a Senior Engineer at the Technology Planning Group of Samsung R&D India and,
 after my PhD, a Researcher in the Exploratory Research Group of Technicolor R&I, France, with [Patrick Perez](https://ptrckprz.github.io/), a
 Postdoctoral Fellow at the [Max Planck Institute for
-Informatics](http://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/) with [Bernt Schiele](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/people/bernt-schiele/),
-Germany, and an Assistant Professor at [CSE, Indian Institute of Technology Kanpur (IIT
+Informatics](http://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/),
+Germany, with [Bernt
+Schiele](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/people/bernt-schiele/),
+and an Assistant Professor at [CSE, Indian Institute of Technology Kanpur (IIT
 Kanpur)](http://www.cse.iitk.ac.in).
 
 My [Erdős number](http://en.wikipedia.org/wiki/Erdős_number) is at most 4 (G. Sharma - J. B.
