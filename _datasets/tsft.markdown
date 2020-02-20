@@ -38,10 +38,10 @@ Boston, MA, USA, June 2015 <br/>
 
 <pre>
 @inproceedings{sharmaCVPRW2015, 
-    title = {Latent Max-margin Metric Learning for Comparing Video Face Tubes}, <br>
-    author = {Gaurav Sharma and Patrick Perez}, <br>
-    year={2015}, <br>
-    booktitle={Computer Vision and Pattern Recognition (CVPR) Workshops} <br>
+    title = {Latent Max-margin Metric Learning for Comparing Video Face Tubes}, 
+    author = {Gaurav Sharma and Patrick Perez}, 
+    year={2015},
+    booktitle={Computer Vision and Pattern Recognition (CVPR) Workshops}
 }
 </pre>
 
