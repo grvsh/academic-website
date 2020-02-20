@@ -1,10 +1,34 @@
 ---
 layout: page
+title: Teaching 
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: Courses taught 
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+{% for course in site.teaching %}
 
-Organize your courses by years, topics, or universities, however you like!
+{% if course.redirect %}
+<div>
+    <a href="{{ course.redirect }}" target="_blank">
+    <span>
+        <strong>{{ course.title }}</strong>
+        <br/>
+        <p>{{ course.description }}</p>
+    </span>
+    </a>
+</div>
+{% else %}
+
+<div>
+    <a href="{{ course.url | prepend: site.baseurl | prepend: site.url }}">
+    <span>
+        <strong>{{ course.title }}</strong>
+        <br/>
+        <p>{{ course.description }}</p>
+    </span>
+    </a>
+</div>
+
+{% endif %}
+
+{% endfor %}

@@ -1,23 +1,37 @@
 ---
 layout: about
 permalink: /
-title: <strong>Your</strong> Name
-description: <a href="">Affiliations</a>. Address. Contacts. Moto. Etc.
+title: Gaurav Sharma 
+description: Researcher, <a href="https://wwww.nec-labs.com">NEC Laboratories America</a> 
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <!--<p>555 your office number</p>-->
+    <!--<p>123 your address street</p>-->
+    <!--<p>Your City, State 12345</p>-->
 
 news: true
 social: true
 ---
+        
+I obtained a PhD under the joint supervision of [Cordelia Schmid](http://lear.inrialpes.fr/~schmid),
+LEAR now [THOTH](http://www.thoth.inrialpes.fr), INRIA Grenoble, and [Frederic
+Jurie](http://jurie.users.greyc.fr), [GREYC](http://www.greyc.fr) [CNRS](http://www.cnrs.fr)
+UMR 6072, [University of Caen](www.unicaen.fr) and an Integrated Master of Technology in Mathematics
+and Computing from the [Indian Institute of Technology Delhi (IIT Delhi)](http://www.iitd.ac.in), India.  
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I was, prior to my PhD, a Senior Engineer at the Technology Planning Group of Samsung R&D India and,
+after my PhD, a Researcher in the Exploratory Research Group of Technicolor R&I, France, a
+Postdoctoral Fellow at the [Max Planck Institute for
+Informatics](http://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/),
+Germany, and an Assistant Professor at [CSE, Indian Institute of Technology Kanpur (IIT
+Kanpur)](http://www.cse.iitk.ac.in).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My [Erdős number](http://en.wikipedia.org/wiki/Erdős_number) is at most 4 (G. Sharma - J. B.
+Srivastava - A. N. Alahmadi - C. Thomassen - P.  Erdős).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+<strong>Research interests:</strong> [Computer Vision](http://en.wikipedia.org/wiki/Computer_vision)
+and [Machine Learning](http://en.wikipedia.org/wiki/Machine_learning).
+

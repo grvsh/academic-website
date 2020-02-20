@@ -1,66 +1,363 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,}
+@inproceedings{cjme_wacv20,
+	title={Coordinated Joint Multimodal Embeddings for Generalized Audio-Visual Zeroshot Classification and Retrieval of Videos},
+    author={Kranti Kumar Parida and Neeraj Matiyali and Tanaya Guha and Gaurav Sharma},
+    booktitle={WACV},
+	abstract={We present an audio-visual multimodal approach for the task of zeroshot learning (ZSL) for classification and retrieval of videos. ZSL has been studied extensively in the recent past but has primarily been limited to visual modality and to images. We demonstrate that both audio and visual modalities are important for ZSL for videos. Since a dataset to study the task is currently not available, we also construct an appropriate multimodal dataset with 33 classes containing 156,416 videos, from an existing large scale audio event dataset. We empirically show that the performance improves by adding audio modality for both tasks of zeroshot classification and retrieval, when using multimodal extensions of embedding learning methods. We also propose a novel method to predict the `dominant' modality using a jointly learned modality attention network. We learn the attention in a semi-supervised setting and thus do not require any additional explicit labelling for the modalities. We provide qualitative validation of the modality specific attention, which also successfully generalizes to unseen test classes.},
+	arxiv={1910.08732},
+    year={2020}
 }
 
-@article{einstein1950meaning,
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+
+@inproceedings{reid_wacv20,
+    title={Video Person Re-Identification using Learned Clip Similarity Aggregation},
+    author={Neeraj Matiyali and Gaurav Sharma},
+    booktitle={WACV},
+	abstract={We address the challenging task of video-based person re-identification. Recent works have shown that splitting the video sequences into clips and then aggregating clip based similarity is appropriate for the task. We show that using a learned clip similarity aggregation function allows filtering out hard clip pairs, e.g. where the person is not clearly visible, is in a challenging pose, or where the poses in the two clips are too different to be informative. This allows the method to focus on clip-pairs which are more informative for the task. We also introduce the use of 3D CNNs for video-based re-identification and show their effectiveness by performing equivalent to previous works, which use optical flow in addition to RGB, while using RGB inputs only. We give quantitative results on three challenging public benchmarks and show better or competitive performance. We also validate our method qualitatively.},
+	arxiv={1910.08055},
+    year={2020}
 }
 
-@article{PhysRev.47.777,
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf}
+
+@inproceedings{drone_wacv20,
+    title={Unsupervised and Semi-Supervised Domain Adaptationfor Action Recognition from Drones},
+    author={Jinwoo Choi and Gaurav Sharma and Manmohan Chandraker and Jia-Bin Huang},
+    booktitle={WACV},
+	abstract={We address the problem of human action classification in drone videos. Due to the high cost of capturing and labeling large-scale drone videos with diverse actions, we present unsupervised and semi-supervised domain adaptation approaches that leverage both the existing fully annotated action recognition datasets and unannotated (or onlya few annotated) videos from drones. To study the emerging problem of drone-based action recognition, we create anew dataset containing 5,250videos to evaluate the task.We tackle both problem settings with 1) same and 2) different action label sets for the source (e.g., Kinectics dataset)and target domains (drone videos). We present a combination of video and instance-based adaptation, paired with either a classifier or an embedding-based framework to transfer the knowledge from source to target. Our results show that the proposed adaptation approach substantially improves the performance on this challenging and practical task. We further demonstrate the applicability of our method for learning cross-view action recognition on the Charades-Ego dataset. We provide qualitative analysis to understand the behaviors of our approaches.},
+    year={2020}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+
+@inproceedings{2d3dobjdet2019,
+	title={Learning 2D to 3D Lifting for Object Detection in 3D for Autonomous Vehicles},
+    author={Siddharth Srivastava and Frederic Jurie and Gaurav Sharma},
+    booktitle={IROS},
+	abstract={We address the problem of 3D object detection from 2D monocular images in autonomous driving scenarios. We propose to lift the 2D images to 3D representations using learned neural networks and leverage existing networks working directly on 3D to perform 3D object detection and localization. We show that, with carefully designed training mechanism and automatically selected minimally noisy data, such a method is not only feasible, but gives higher results than many methods working on actual 3D inputs acquired from physical sensors. On the challenging KITTI benchmark, we show that our 2D to 3D lifted method outperforms many recent competitive 3D networks while significantly outperforming previous state of the art for 3D detection from monocular images. We also show that a late fusion of the output of the network trained on generated 3D images, with that trained on real 3D images, improves performance. We find the results very interesting and argue that such a method could serve as a highly reliable backup in case of malfunction of expensive 3D sensors, if not potentially making them redundant, at least in the case of low human injury risk autonomous navigation scenarios like warehouse automation.},
+	arxiv={1904.08494},
+    year={2019}
 }
 
-@article{einstein1905movement,
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
+
+@inproceedings{zsdetn2018,
+    title={Zero-Shot Object Detection},
+    author={Ankan Bansal and Karan Sikka and Gaurav Sharma and Rama Chellappa and Ajay Divakaran},
+    booktitle={ECCV},
+	abstract={We introduce and tackle the problem of zero-shot object detection (ZSD), which aims to detect object classes which are not observed during training. We work with a challenging set of object classes, not restricting ourselves to similar and/or fine-grained categories cf. prior works on zero-shot classification. We follow a principled approach by first adapting visual-semantic embeddings for ZSD. We then discuss the problems associated with selecting a background class and motivate two background-aware approaches for learning robust detectors. One of these models uses a fixed background class and the other is based on iterative latent assignments. We also outline the challenge associated with using a limited number of training classes and propose a solution based on dense sampling of the semantic label space using auxiliary data with a large number of categories. We propose novel splits of two standard detection datasets - MSCOCO and VisualGenome and discuss extensive empirical results to highlight the benefits of the proposed methods. We provide useful insights into the algorithm and conclude by posing some open questions to encourage further research.},
+	arxiv={1804.04340},
+    year={2018}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@article{sikka2016lomo,
+    title={Discriminatively Trained Latent Ordinal Model for Video Classification},
+    author={Karan Sikka and Gaurav Sharma},
+	journal={TPAMI},
+	volume={40},
+	number={8},
+	pages={1829--1844},
+	abstract={We study the problem of video classification for facial analyis and human action recognition. We propose a novel weakly supervised learning method that models the video as a sequence of automatically mined, discriminative sub-events (e.g. onset and offset phase for smile, running and jumping for high-jump). The proposed model is inspired by the recent works on Multiple Instance Learning and latent SVM/HCRF – it extends such frameworks to model the ordinal aspect in the videos, approximately. We obtain consistent improvements over relevant competitive baselines on four challenging and publicly available video based facial analysis datasets for prediction of expression, clinical pain and intent in dyadic conversations and on three challenging human action datasets. We also validate the method with qualitative results and show that they largely support the intuitions behind the method.},
+ 	project={http://ksikka.com/lomo_page.html},	
+    arxiv={1608.02318},
+    year={2018}
+}
+
+
+@inproceedings{unsupfaces2018,
+	title={Unsupervised Learning of Face Representations},
+	honor={Best Paper Award},
+    author={Samyak Datta and Gaurav Sharma and C.V. Jawahar},
+    booktitle={IEEE Conference on Automatic Face and Gesture Recognition (FG)},
+	abstract={We present an approach for unsupervised training of CNNs in order to learn discriminative face representations. We mine supervised training data by noting that multiple faces in the same video frame must belong to different persons and the same face tracked across multiple frames must belong to the same person. We obtain millions of face pairs from hundreds of videos without using any manual supervision. Although faces extracted from videos have a lower spatial resolution than those which are available as part of standard supervised face datasets such as LFW and CASIA-WebFace, the former represent a much more realistic setting, e.g. in surveillance scenarios where most of the faces detected are very small. We train our CNNs with the relatively low resolution faces extracted from video frames collected, and achieve a higher verification accuracy on the benchmark LFW dataset cf. hand-crafted features such as LBPs, and even surpasses the performance of state-of-the-art deep networks such as VGG-Face, when they are made to work with low resolution input images.},
+	arxiv={1803.01260},
+    year={2018}
+}
+
+@inproceedings{objDisc2017,
+    title={Large Scale Novel Object Discovery in 3D},
+    author={Siddharth Srivastava and Gaurav Sharma and Brejesh Lall},
+    booktitle={IEEE Winter Conference on Applications of Computer Vision (WACV)},
+	abstract={We present a method for discovering objects in 3D point clouds from sensors like Microsoft Kinect. We utilize supervoxels generated directly from the point cloud data and design a Siamese network building on a recently proposed 3D convolutional neural network architecture. At training, we assume the availability of the some known objects---these are used to train a non-linear embedding of supervoxels using the Siamese network, by optimizing the criteria that supervoxels which fall on the same object should be closer than those which fall on different objects, in the embedding space. We do not assume the objects during test to be known, and perform clustering, in the embedding space learned, of supervoxels to effectively perform novel object discovery. We validate the method with quantitative results showing that it can discover numerous unseen objects while being trained on only a few dense 3D models. We also show convincing qualitative results of object discovery in point cloud data when the test objects, either specific instances or even their categories, were never seen during training.},
+	arxiv={1701.07046},
+    year={2018}
+}
+
+
+@inproceedings{speakerPerf2018,
+    title={Multichannel Attention Network for Analyzing Visual Behavior in Public Speaking },
+    author={Rahul Sharma and Tanaya Guha and Gaurav Sharma},
+    booktitle={IEEE Winter Conference on Applications of Computer Vision (WACV)},
+	abstract={Public speaking is an important aspect of human communication and interaction. The majority of computational work on public speaking concentrates on analyzing the spoken content, and the verbal behavior of the speakers. While the success of public speaking largely depends on the content of the talk, and the verbal behavior, non-verbal (visual) cues, such as gestures and physical appearance also play a significant role. This paper investigates the importance of visual cues by estimating their contribution towards predicting the popularity of a public lecture. For this purpose, we constructed a large database of more than 1800 TED talk videos. As a measure of popularity of the TED talks, we leverage the corresponding (online) viewers' ratings from YouTube. Visual cues related to facial and physical appearance, facial expressions, and pose variations are extracted from the video frames using convolutional neural network (CNN) models. Thereafter, an attention-based long short-term memory (LSTM) network is proposed to predict the video popularity from the sequence of visual features. The proposed network achieves state-of-the-art prediction accuracy indicating that visual cues alone contain highly predictive information about the popularity of a talk. Furthermore, our network learns a human-like attention mechanism, which is particularly useful for interpretability, i.e. how attention varies with time, and across different visual cues by indicating their relative importance.},
+	arxiv={1707.06830},
+    year={2018}
+}
+
+
+@inproceedings{adascan2017,
+            title={AdaScan: Adaptive Scan Pooling in Deep Convolutional Neural Networks for Human Action Recognition in Videos},
+            author={Amlan Kar and Nishant Rai and Karan Sikka and Gaurav Sharma},
+            booktitle={CVPR},
+			abstract={We propose a novel method for temporally pooling frames in a video for the task of human action recognition. The method is motivated by the observation that there are only a small number of frames which, together, contain sufficient information to discriminate an action class present in a video, from the rest. The proposed method learns to pool such discriminative and informative frames, while discarding a majority of the non-informative frames in a single temporal scan of the video. Our algorithm does so by continuously predicting the discriminative importance of each video frame and subsequently pooling them in a deep learning framework. We show the effectiveness of our proposed pooling method on standard benchmarks where it consistently improves on baseline pooling methods, with both RGB and optical flow based Convolutional networks. Further, in combination with complementary video representations, we show results that are competitive with respect to the state-of-the-art results on two challenging and publicly available benchmark datasets.},
+			arxiv={1611.08240},
+			project={https://amlankar.github.io/publication/adascan/},
+            year={2017}
+}
+
+
+@inproceedings{novel2017,
+            title={An Empirical Evaluation of Visual Question Answering for Novel Objects},
+            author={Santhosh K. Ramakrishnan and Ambar Pal and Gaurav Sharma and Anurag Mittal},
+            booktitle={CVPR},
+			abstract={We study the problem of answering questions about images in the harder setting, where the test questions and corresponding images contain novel objects, which were not queried about in the training data. Such setting is inevitable in real world-owing to the heavy tailed distribution of the visual categories, there would be some objects which would not be annotated in the train set. We show that the performance of two popular existing methods drop significantly (up to 28%) when evaluated on novel objects cf. known objects. We propose methods which use large existing external corpora of (i) unlabeled text, i.e. books, and (ii) images tagged with classes, to achieve novel object based visual question answering. We do systematic empirical studies, for both an oracle case where the novel objects are known textually, as well as a fully automatic case without any explicit knowledge of the novel objects, but with the minimal assumption that the novel objects are semantically related to the existing objects in training. The proposed methods for novel object based visual question answering are modular and can potentially be used with many visual question answering architectures. We show consistent improvements with the two popular architectures and give qualitative analysis of the cases where the model does well and of those where it fails to bring improvements.},
+			arxiv={1704.02516},
+            year={2017}
+}
+
+@article{sharma2017epm,
+            title={Expanded Parts Model for Semantic Description of Humans in Still Images},
+            author={Gaurav Sharma and Frederic Jurie and Cordelia Schmid},
+            journal={TPAMI},
+            volume={39},
+            number={1},
+            pages={87--101},
+			abstract={We introduce an Expanded Parts Model (EPM) for recognizing human attributes (e.g. young, short hair, wearing suit) and actions (e.g. running, jumping) in still images. An EPM is a collection of part templates which are learnt discriminatively to explain specific scale-space regions in the images (in human centric coordinates). This is in contrast to current models which consist of a relatively few (i.e. a mixture of) 'average' templates. EPM uses only a subset of the parts to score an image and scores the image sparsely in space, i.e. it ignores redundant and random background in an image. To learn our model, we propose an algorithm which automatically mines parts and learns corresponding discriminative templates together with their respective locations from a large number of candidate parts. We validate our method on three recent challenging datasets of human attributes and actions. We obtain convincing qualitative and state-of-the-art quantitative results on the three datasets.},
+			arxiv={1509.04186},
+            year={2017}
+}
+
+@inproceedings{loc-dml-CRV2017,
+	title={Fast Localization of Autonomous Vehicles using Discriminative Metric Learning},
+	author={Ankit Pensia and Gaurav Sharma and James McBride and Gaurav Pandey},
+	booktitle={Conference on Computer and Robot Vision (CRV)},
+	year={2017}
+}
+
+
+@inproceedings{deepfuse2016,
+            title={Deep Fusion of Visual Signatures for Client-Server Facial Analysis},
+			honor={Best Paper Award Runners Up},
+            author={Binod Bhattarai and Gaurav Sharma and Frederic Jurie},
+            booktitle={Indian Conference on Computer Vision, Graphics and Image Processing (ICVGIP)},
+			abstract={Facial analysis is a key technology for enabling human-machine interaction. In this context, we present a client-server framework, where a client transmits the signature of a face to be analyzed to the server, and, in return, the server sends back various information describing the face e.g. is the person male or female, is she/he bald, does he have a mustache, etc. We assume that a client can compute one (or a combination) of visual features; from very simple and efficient features, like Local Binary Patterns, to more complex and computationally heavy, like Fisher Vectors and CNN based, depending on the computing resources available. The challenge addressed in this paper is to design a common universal representation such that a single merged signature is transmitted to the server, whatever be the type and number of features computed by the client, ensuring nonetheless an optimal performance. Our solution is based on learning of a common optimal subspace for aligning the different face features and merging them into a universal signature. We have validated the proposed method on the challenging CelebA dataset, on which our method outperforms existing state-of-the-art methods when rich representation is available at test time, while giving competitive performance when only simple signatures (like LBP) are available at test time due to resource constraints on the client.},
+			arxiv={1611.00142},
+            year={2016}
+}
+
+
+@inproceedings{mtml_cvpr_2016,
+            title={{CP-mtML}: {C}oupled Projection multi-task Metric Learning for Large Scale Face Retrieval },
+            author={Binod Bhattarai and Gaurav Sharma and Frederic Jurie},
+            booktitle={CVPR},
+			abstract={We propose a novel Coupled Projection multi-task Metric Learning (CP-mtML) method for large scale face retrieval. In contrast to previous works which were limited to low dimensional features and small datasets, the proposed method scales to large datasets with high dimensional face descriptors. It utilises pairwise (dis-) similarity constraints as supervision and hence does not require exhaustive class annotation for every training image. While, traditionally, multi-task learning methods have been validated on same dataset but different tasks, we work on the more challenging setting with heterogeneous datasets and different tasks. We show empirical validation on multiple face image datasets of different facial traits, e.g. identity, age and expression. We use classic Local Binary Pattern (LBP) descriptors along with the recent Deep Convolutional Neural Network (CNN) features. The experiments clearly demonstrate the scalability and improved performance of the proposed method on the tasks of identity and age based face image retrieval compared to competitive existing methods, on the standard datasets and with the presence of a million distractor face images.},
+			arxiv={1604.02975},
+            year={2016}
+}
+
+
+@inproceedings{lomo_cvpr_2016,
+            title = {{LOMo}: Latent Ordinal Model for Facial Analysis in Videos},
+			honor={Spotlight presentation},
+            author = {Karan Sikka and Gaurav Sharma and Marian Bartlett },
+            booktitle={CVPR},
+			abstract={We study the problem of facial analysis in videos. We propose a novel weakly supervised learning method that models the video event (expression, pain etc.) as a sequence of automatically mined, discriminative sub-events (eg. onset and offset phase for smile, brow lower and cheek raise for pain). The proposed model is inspired by the recent works on Multiple Instance Learning and latent SVM/HCRF- it extends such frameworks to model the ordinal or temporal aspect in the videos, approximately. We obtain consistent improvements over relevant competitive baselines on four challenging and publicly available video based facial analysis datasets for prediction of expression, clinical pain and intent in dyadic conversations. In combination with complimentary features, we report state-of-the-art results on these datasets.},
+			arxiv={1604.01500},
+            year={2016}
+}
+
+@inproceedings{latem_cvpr_2016,
+            title = {Latent Embeddings for Zero-shot Classification},
+			honor = {Spotlight presentation},
+            author = {Yongqin Xian and Zeynep Akata and Gaurav Sharma and Quynh Nguyen and Matthias Hein and Bernt Schiele},
+            booktitle={CVPR},
+			abstract={We present a novel latent embedding model for learning a compatibility function between image and class embeddings, in the context of zero-shot classification. The proposed method augments the state-of-the-art bilinear compatibility model by incorporating latent variables. Instead of learning a single bilinear map, it learns a collection of maps with the selection, of which map to use, being a latent variable for the current image-class pair. We train the model with a ranking based objective function which penalizes incorrect rankings of the true class for a given image. We empirically demonstrate that our model improves the state-of-the-art for various class embeddings consistently on three challenging publicly available datasets for the zero-shot setting. Moreover, our method leads to visually highly interpretable results with clear clusters of different fine-grained object properties that correspond to different latent variable maps.},
+			arxiv={1603.08895},
+            year={2016}
+}
+
+
+@article{lhs_cviu_2016,
+            title = {Local Higher-Order Statistics ({LHS}) describing images with statistics of local non-binarized pixel patterns},
+            author = {G. Sharma and F. Jurie},
+            journal = {Computer Vision and Image Understanding (CVIU)},
+            volume = {142},
+            pages = {13--22},
+			abstract={We propose a new image representation for texture categorization and facial analysis, relying on the use of higher-order local differential statistics as features. It has been recently shown that small local pixel pattern distributions can be highly discriminative while being extremely efficient to compute, which is in contrast to the models based on the global structure of images. Motivated by such works, we propose to use higher-order statistics of local non-binarized pixel patterns for the image description. The proposed model does not require either (i) user specified quantization of the space (of pixel patterns) or (ii) any heuristics for discarding low occupancy volumes of the space. We propose to use a data driven soft quantization of the space, with parametric mixture models, combined with higher-order statistics, based on Fisher scores. We demonstrate that this leads to a more expressive representation which, when combined with discriminatively learned classifiers and metrics, achieves state-of-the-art performance on challenging texture and facial analysis datasets, in low complexity setup. Further, it is complementary to higher complexity features and when combined with them improves performance.},
+			arxiv={1510.00542},
+            year = 2016
+}
+
+
+@inproceedings{jl_icassp_2016,
+            title = {A Joint Learning Approach for Cross Domain Age Estimation},
+			honor={Best Student Paper Award of Image, Video and Multidimensional Singal Processing},
+            author = {B. Bhattarai and G. Sharma and A. Lechervy and F. Jurie},
+			abstract={We propose a novel joint learning method for cross domain age estimation, a domain adaptation problem. The proposed method learns a low dimensional projection along with a re- gressor, in the projection space, in a joint framework. The projection aligns the features from two different domains, i.e. source and target, to the same space, while the regressor pre- dicts the age from the domain aligned features. After this alignment, a regressor trained with only a few examples from the target domain, along with more examples from the source domain, can predict very well the ages of the target domain face images. We provide empirical validation on the largest publicly available dataset for age estimation i.e. MORPH- II. The proposed method improves performance over several strong baselines and the current state-of-the-art methods.},
+            year={2016},
+            booktitle={ICASSP}
+}
+
+
+@inproceedings{nml_iccv_2016,
+            title = {Scalable Nonlinear Embeddings for Semantic Category-based Image Retrieval},
+            author = {Gaurav Sharma and Bernt Schiele},
+            year={2015},
+			abstract={We propose a novel algorithm for the task of supervised discriminative distance learning by nonlinearly embedding vectors into a low dimensional Euclidean space. We work in the challenging setting where supervision is with constraints on similar and dissimilar pairs while training. The proposed method is derived by an approximate kernelization of a linear Mahalanobis-like distance metric learning algorithm and can also be seen as a kernel neural network. The number of model parameters and test time evaluation complexity of the proposed method are O(dD) where D is the dimensionality of the input features and d is the dimension of the projection space - this is in contrast to the usual kernelization methods as, unlike them, the complexity does not scale linearly with the number of training examples. We propose a stochastic gradient based learning algorithm which makes the method scalable (w.r.t. the number of training examples), while being nonlinear. We train the method with up to half a million training pairs of 4096 dimensional CNN features. We give empirical comparisons with relevant baselines on seven challenging datasets for the task of low dimensional semantic category based image retrieval.},
+			url={https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Sharma_Scalable_Nonlinear_Embeddings_ICCV_2015_paper.pdf},
+            booktitle={ICCV}
+}
+
+@inproceedings{lftc_cvprw2015,
+            title = {Latent Max-margin Metric Learning for Comparing Video Face Tubes},
+			honor={Best Paper Award},
+            author = {Gaurav Sharma and Patrick Perez},
+            year={2015},
+			abstract={Comparing "face tubes" is a key component of modern systems for face biometrics based video analysis and annotation. We present a novel algorithm to learn a distance metric between such spatio-temporal face tubes in videos. The main novelty in the algorithm is based on incorporation of latent variables in a max-margin metric learning framework. The latent formulation allows us to model, and learn metrics to compare faces under different challenging variations in pose, expressions and lighting. We propose a novel dataset named TV Series Face Tubes (TSFT) for evaluating the task. The dataset is collected from 12 different episodes of 8 popular TV series and has 94 subjects with 569 manually annotated face tracks in total. We show quantitatively how incorporating latent variables in max-margin metric learning leads to improvement of current state-of-the-art metric learning methods for the two cases when the testing is done with subjects that were seen during training and when the test subjects were not seen at all during training. We also give results on a challenging benchmark dataset: YouTube faces, and place our algorithm in context w.r.t. existing methods.},
+			url={http://openaccess.thecvf.com/content_cvpr_workshops_2015/W02/papers/Sharma_Latent_Max-Margin_Metric_2015_CVPR_paper.pdf},
+            booktitle={CVPRW}
+}
+
+@inproceedings{epml_acccv14,
+            title = { {EPML}: {E}xpanded Parts based Metric Learning for Occlusion Robust Face Verification},
+            author = {Gaurav Sharma and Frederic Jurie and Patrick Perez},
+            year={2014},
+            booktitle={ACCV}
+}
+
+@article{nsvm_hal14,
+            title = {Learning Non-linear SVM in Input Space for Image Classification},
+            author = {Gaurav Sharma and Frederic Jurie and Patrick Perez},
+            year={2014},
+            journal={HAL Technical Report hal-00977304}
+}
+
+@inproceedings{hfaces_eccvw14,
+            title = {Some faces are more equal than others:
+                        {H}ierarchical organization for accurate and efficient large-scale identity-based face retrieval},
+            author = {Binod Bhattarai and Gaurav Sharma and Frederic Jurie and Patrick Perez},
+            year={2014},
+            booktitle={ECCVW}
+
+}
+
+
+@inproceedings{tl_wacv14,
+            title = {Transfer Learning via Attributes for Improved On-the-fly Classification},
+            author = {Praveen Kulkarni and Gaurav Sharma and Joaquin Zepeda and Louis Chevallier},
+            year={2014},
+            booktitle={WACV}
+}
+
+@inproceedings{nsvm_bmvc13,
+            title = {A Novel Approach for Efficient SVM Classification with Histogram Intersection Kernel},
+			honor= {Oral presentation; 7% acceptance rate},
+            author = {Gaurav Sharma and Frederic Jurie},
+            year={2013},
+            booktitle={BMVC}
+}
+
+
+@inproceedings{epm_cvpr12,
+            title = {Expanded Parts Model for Human Attribute and Action Recognition in Still Images},
+            author = {Gaurav Sharma and Frederic Jurie and Cordelia Schmid},
+            year={2012},
+			abstract={We propose a new model for recognizing human attributes (e.g. wearing a suit, sitting, short hair) and actions (e.g. running, riding a horse) in still images. The proposed model relies on a collection of part templates which are learnt discriminatively to explain specific scale-space locations in the images (in human centric coordinates). It avoids the limitations of highly structured models, which consist of a few (i.e. a mixture of) ‘average’ templates. To learn our model, we propose an algorithm which automatically mines out parts and learns corresponding discriminative templates with their respective locations from a large number of candidate parts. We validate the method on recent challenging datasets: (i) Willow 7 actions [7], (ii) 27 Human Attributes (HAT) [25], and (iii) Stanford 40 actions [37]. We obtain convincing qualitative and state-of-the-art quantitative results on the three datasets.},
+            booktitle={CVPR}
+}
+
+
+@phdthesis{sharma_thesis2012,
+            title = {Semantic Description of Humans in Images},
+            author = {Gaurav Sharma},
+            year={2012},
+            school = {LEAR -- INRIA, GREYC -- CNRS}
+}
+
+
+@inproceedings{sharma_eccv2012,
+            title = {Local Higher-Order Statistics ({LHS}) for Texture Categorization and Facial Analysis},
+            author = {Gaurav Sharma and Sibt ul Hussain and Frederic Jurie},
+            year={2012},
+            booktitle = {ECCV}
+}
+
+
+@inproceedings{sharma_cvpr2012,
+            title = {Discriminative Spatial Saliency for Image Classification},
+            author = {Gaurav Sharma and Sibt ul Hussain and Frederic Jurie},
+            year={2012},
+            booktitle = {CVPR}
+}
+
+
+@inproceedings{dsr_bmvc2011,
+            title = {Learning Discriminative Spatial Representation for Image Classification},
+			honor = {Oral presentation; 8% acceptance rate},
+            author = {Gaurav Sharma and Frederic Jurie},
+            year={2011},
+            booktitle = {BMVC}
+}
+
+@inproceedings{distcalib2010,
+title={Distributed Calibration of Pan-Tilt Camera Network using Multi-Layered Belief Propagation},
+author={Ayesha Choudhary and Gaurav Sharma and Santanu Chaudhury and Subhashis Banerjee},
+booktitle={Workshop on Camera Networks, Computer Vision and Pattern Recognition (CVPR)},
+year={2010},
+}
+
+
+@inproceedings{adaptmakeup2009,
+title =   {Adaptive Digital Makeup},
+author=   {Abhinav Dhall and Gaurav Sharma and Rajen Bhatt and Ghulam M. Khan},
+booktitle={International Symposium on Visual Computing (ISVC)},
+year=     {2009}
+}
+
+@inproceedings{catorient2009,
+title =   {Hierarchical System for Categorization and Orientation Detection of Consumer Images},
+author=   {Gaurav Sharma and A. Dhall and Santanu Chaudhury and Rajen Bhatt},
+booktitle={International Conference on Pattern Recognition and Machine Intelligence (PReMI)},
+year= {2009}
+}
+
+@inproceedings{indscript2009,
+title =   {Curvature Feature Distribution based Classification of Indian Scripts from Document
+Images},
+author=   {Gaurav Sharma and Ritu Garg and Santanu Chaudhury},
+booktitle={Workshop on Multilingual OCR, International Conference on Document Analysis and
+Recognition (ICDAR)},
+year= {2009}
+}
+
+
+@inproceedings{objdet2009,
+title =  { Object Detection as Statistical Test of Hypothesis},
+author=  { Gaurav  Sharma and Santanu Chaudhury and J. B. Srivastava},
+booktitle={Indian Conference on Vision Graphics and Image Processing (ICVGIP)},
+year= {2009}
+}
+
+
+@inproceedings{kereigtr2008,
+title = {  Kernel Eigen Space Merging},
+author=  { Gaurav  Sharma and Santanu Chaudhury and J. B. Srivastava},
+booktitle={Technical report for Masters Thesis, Indian Institute of Technology Delhi (IITD)},
+year= {2008}
+}
+PDF  
+
+
+@inproceedings{kerneleig2008,
+title =   {Bag-of-Features Kernel Eigen Spaces for Classification},
+author=   {Gaurav Sharma and Santanu Chaudhury and J. B. Srivastava},
+booktitle={International Conference on Pattern Recognition (ICPR)},
+year= {2008}
+}
+
+
+@inproceedings{textmine2007,
+title =   {Text Mining through Entity-Relationship Based Information Extraction},
+author=   {Lipika Dey and M. Abulaish and Mr. Jahiruddin and Gaurav Sharma},
+booktitle={Workshop on Bio-Medical Application of Web Technology, IEEE/WIC/ACM International
+Conference on Web Intelligence and Intelligen Agent Technology},
+year = {2007}
 }

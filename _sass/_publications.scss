@@ -27,6 +27,10 @@
 
         span { display: block; }
         .title { font-weight: bolder; }
+        .honor{ 
+                font-weight: 500;
+                color: red; 
+              }
         .author {
             a {
                 border-bottom: 1px dashed $theme-color;
@@ -75,6 +79,13 @@
         }
         span.abstract.hidden.open {
             border-color: $grey-color;
+        }
+        span.bibtex.hidden {
+            border: dashed 1px $background-color;
+        }
+        span.bibtex.hidden.open {
+            border-color: $grey-color;
+            white-space: pre-wrap;
         }
     }
     abbr {
