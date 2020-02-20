@@ -20,14 +20,14 @@
     <span class="author">
       {% for author in entry.author_array %}
         {% if forloop.length == 1 %}
-          {% if author.last == "Sharma" and author.first == "Gaurav" %}
+          {% if author.last == "Sharma" and author.first == "Gaurav" or author.first == "G." %}
             <em>{{author.first}} {{author.last}}</em>
           {% else %}
             {{author.first}} {{author.last}}
           {% endif %}
         {% else %}
           {% unless forloop.last %}
-            {% if author.last == "Sharma" and author.first == "Gaurav" %}
+            {% if author.last == "Sharma" and author.first == "Gaurav" or author.first == "G." %}
               <em>{{author.first}} {{author.last}}</em>,
             {% else %}
               {% if site.data.coauthors[author.last] %}
@@ -37,7 +37,7 @@
               {% endif %}
             {% endif %}
           {% else %}
-            {% if author.last == "Sharma" and author.first == "Gaurav" %}
+            {% if author.last == "Sharma" and author.first == "Gaurav" or author.first == "G." %}
               and <em>{{author.first}} {{author.last}}</em>
             {% else %}
               {% if site.data.coauthors[author.last] %}
