@@ -17,16 +17,18 @@ social: true
 ---
         
 I obtained a PhD under the joint supervision of [Cordelia Schmid](http://lear.inrialpes.fr/~schmid),
-LEAR now [THOTH](http://www.thoth.inrialpes.fr), INRIA Grenoble, and [Frederic
+LEAR now [THOTH](http://thoth.inrialpes.fr), INRIA Grenoble, and [Frederic
 Jurie](http://jurie.users.greyc.fr), [GREYC](http://www.greyc.fr) [CNRS](http://www.cnrs.fr)
-UMR 6072, [University of Caen](www.unicaen.fr) and an Integrated Master of Technology in Mathematics
+UMR 6072, [University of Caen](http://www.unicaen.fr) and an Integrated Master of Technology in Mathematics
 and Computing from the [Indian Institute of Technology Delhi (IIT Delhi)](http://www.iitd.ac.in), India.  
 
 I was, prior to my PhD, a Senior Engineer at the Technology Planning Group of Samsung R&D India and,
-after my PhD, a Researcher in the Exploratory Research Group of Technicolor R&I, France, a
+after my PhD, a Researcher in the Exploratory Research Group of Technicolor R&I, France, with [Patrick Perez](https://ptrckprz.github.io/), a
 Postdoctoral Fellow at the [Max Planck Institute for
 Informatics](http://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/),
-Germany, and an Assistant Professor at [CSE, Indian Institute of Technology Kanpur (IIT
+Germany, with [Bernt
+Schiele](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/people/bernt-schiele/),
+and an Assistant Professor at [CSE, Indian Institute of Technology Kanpur (IIT
 Kanpur)](http://www.cse.iitk.ac.in).
 
 My [Erdős number](http://en.wikipedia.org/wiki/Erdős_number) is at most 4 (G. Sharma - J. B.
