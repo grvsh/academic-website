@@ -20,7 +20,7 @@ Please cite the following paper if you use the NEC-Drones dataset.
 for Action Recognition from Drones</strong><br>
 J.Choi, <u>G. Sharma</u>, M. Chandraker, J.-B. Huang<br/>
 <i>Winter Conference on Applications of Computer Vision (WACV)</i><br/>
-<a href=http://openaccess.thecvf.com/content_WACV_2020/papers/Choi_Unsupervised_and_Semi-Supervised_Domain_Adaptation_for_Action_Recognition_from_Drones_WACV_2020_paper.pdf">PDF</a>
+<a href="http://openaccess.thecvf.com/content_WACV_2020/papers/Choi_Unsupervised_and_Semi-Supervised_Domain_Adaptation_for_Action_Recognition_from_Drones_WACV_2020_paper.pdf">PDF</a>
 
 <pre>
 @inproceedings{nec-drone,
