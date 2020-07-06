@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: NEC-Drone dataset 
 description: Dataset of human actions taken from drones 
 ---
