@@ -28,8 +28,8 @@ Postdoctoral Fellow at the [Max Planck Institute for
 Informatics](http://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/),
 Germany, with [Bernt
 Schiele](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/people/bernt-schiele/), an Assistant Professor at [CSE, Indian Institute of Technology Kanpur (IIT
-Kanpur)](http://www.cse.iitk.ac.in) and a Researcher at [NEC Labs
-America, Media Analytics Group](http://www.nec-labs.com/research-departments/media-analytics/media-analytics-home)
+Kanpur)](http://www.cse.iitk.ac.in) and a Researcher at the [Media Analytics Group of NEC Labs
+America](http://www.nec-labs.com/research-departments/media-analytics/media-analytics-home)
 
 My [Erdős number](http://en.wikipedia.org/wiki/Erdős_number) is at most 4 (G. Sharma - J. B.
 Srivastava - A. N. Alahmadi - C. Thomassen - P.  Erdős).
