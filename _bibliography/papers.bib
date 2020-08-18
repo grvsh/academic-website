@@ -5,8 +5,24 @@
 	title={Shuffle and Attend: Video Domain Adaptation},
     author={Jinwoo Choi and Gaurav Sharma and Samuel Schulter and Jia-Bin Huang},
     booktitle={ECCV},
-	%abstract={Coming soon},
-	%arxiv={1910.08732},
+    abstract={We address the problem of domain adaptation in videos for the task of human action
+            recognition. Inspired by image-based domain adaptation, we can perform video adaptation by
+            aligning the features of frames or clips of source and target videos. However, equally
+            aligning all clips is suboptimal as not all clips are informative for the task. As the
+            first novelty, we propose an attention mechanism which focuses on more discriminative
+            clips and directly optimizes for video-level (cf. clip-level) alignment. As the
+            backgrounds are often very different between source and target, the source
+            background-corrupted model adapts poorly to target domain videos. To alleviate this, as
+            a second novelty, we propose to use the clip order prediction as an auxiliary task. The
+            clip order prediction loss, when combined with domain adversarial loss, encourages
+            learning of representations which focus on the humans and objects involved in the
+            actions, rather than the uninformative and widely differing (between source and target)
+            backgrounds. We empirically show that both components contribute positively towards
+            adaptation performance. We report state-of-the-art performances on two out of three
+            challenging public benchmarks, two based on the UCF and HMDB datasets, and one on
+            Kinetics to NEC-Drone datasets. We also support the intuitions and the results with
+            qualitative results.},
+	url={http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123570664.pdf},
     year={2020}
 }
 
@@ -15,8 +31,24 @@
     author={Xiangyun Zhao and Samuel Schulter and  Gaurav Sharma and  Yi-Hsuan Tsai and  Manmohan
     Chandraker and  Ying Wu},
     booktitle={ECCV},
-	%abstract={Coming soon},
-	%arxiv={1910.08732},
+    abstract={Given multiple datasets with different label spaces, the goal of this work is to train
+            a single object detector predicting over the union of all the label spaces. The practical
+            benefits of such an object detector are obvious and significant—application-relevant
+            categories can be picked and merged form arbitrary existing datasets. However, naïve
+            merging of datasets is not possible in this case, due to inconsistent object
+            annotations. Consider an object category like faces that is annotated in one dataset,
+            but is not annotated in another dataset, although the object itself appears in the latter’s
+            images. Some categories, like face here, would thus be considered foreground in one
+            dataset, but background in another. To address this challenge, we design a framework
+            which works with such partial annotations, and we exploit a pseudo labeling approach
+            that we adapt for our specific case. We propose loss functions that carefully integrate
+            partial but correct annotations with complementary but noisy pseudo labels. Evaluation
+            in the proposed novel setting requires full annotation on the test set. We collect the
+            required annotations1 and define a new challenging experimental setup for this task
+            based on existing public datasets. We show improved performances compared to competitive
+            baselines and appropriate adaptations of existing work.},
+    url={http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123590171.pdf},
+    project={http://www.nec-labs.com/~mas/UniDet/},
     year={2020}
 }
 
