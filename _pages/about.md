@@ -2,7 +2,7 @@
 layout: about
 permalink: /
 title: Gaurav Sharma 
-<!--description: Researcher, <a href="https://wwww.nec-labs.com">NEC Laboratories America</a> -->
+description: Visiting Assitant Professor, <a href="https://www.cse.iitk.ac.in">CSE, IIT Kanpur</a> 
 
 profile:
   align: right
@@ -27,7 +27,8 @@ after my PhD, a Researcher in the Exploratory Research Group of Technicolor R&I,
 Postdoctoral Fellow at the [Max Planck Institute for
 Informatics](http://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/),
 Germany, with [Bernt
-Schiele](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/people/bernt-schiele/), an Assistant Professor at [CSE, Indian Institute of Technology Kanpur (IIT
+Schiele](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/people/bernt-schiele/),
+an full time Assistant Professor at [CSE, Indian Institute of Technology Kanpur (IIT
 Kanpur)](http://www.cse.iitk.ac.in) and a Researcher at the [Media Analytics Group of NEC Labs
 America](http://www.nec-labs.com/research-departments/media-analytics/media-analytics-home)
 
