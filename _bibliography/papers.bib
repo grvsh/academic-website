@@ -7,7 +7,24 @@
     booktitle={CVPR (accepted, to appear)},
     project={https://krantiparida.github.io/projects/bimgdepth.html},
 	arxiv={2103.08468},
-    year={2021}
+    year={2021},
+    abstract={We address the problem of estimating depth with multi modal audio visual data.
+            Inspired by the ability of animals, such as bats and dolphins, to infer distance of objects
+            with echolocation, some recent methods have utilized echoes for depth estimation. We
+            propose an end-to-end deep learning based pipeline utilizing RGB images, binaural echoes
+            and estimated material properties of various objects within a scene. We argue that the
+            relation between image, echoes and depth, for different scene elements, is greatly
+            influenced by the properties of those elements, and a method designed to leverage this
+            information can lead to significantly improve depth estimation from audio visual inputs.
+            We propose a novel multi modal fusion technique, which incorporates the material
+            properties explicitly while combining audio (echoes) and visual modalities to predict
+            the scene depth. We show empirically, with experiments on Replica dataset, that the
+            proposed method obtains 28% improvement in RMSE compared to the state-of-the-art
+            audio-visual depth prediction method. To demonstrate the effectiveness of our method on
+            larger dataset, we report competitive performance on Matterport3D, proposing to use it
+            as a multimodal depth prediction benchmark with echoes for the first time. We also
+            analyse the proposed method with exhaustive ablation experiments and qualitative
+            results. }
 }
 
 @inproceedings{gnn_icra21,
@@ -16,7 +33,26 @@
     author={Siddharth Srivastava and Gaurav Sharma},
     booktitle={ICRA (accepted, to appear)},
     project={https://siddharthsrivastava.github.io/publication/geomgcnn/},
-    year={2021}
+    year={2021},
+    abstract={ We propose simple yet effective improvements in point representations and local
+            neighborhood graph construction within the general framework of graph neural networks
+            (GNNs) for 3D point cloud processing. As a first contribution, we propose to augment
+            the vertex representations with important local geometric information of the points,
+            followed by nonlinear projection using a MLP. As a second contribution, we propose to
+            improve the graph construction for GNNs for 3D point clouds. The existing methods
+            work with a knn based approach for constructing the local neighborhood graph. We
+            argue that it might lead to reduction in coverage in case of dense sampling by
+            sensors in some regions of the scene. The proposed methods aims to counter such
+            problems and improve coverage in such cases. As the traditional GNNs were designed
+            to work with general graphs, where vertices may have no geometric interpretations,
+            we see both our proposals as augmenting the general graphs to incorporate the geometric
+            nature of 3D point clouds. While being simple, we demonstrate with multiple
+            challenging benchmarks, with relatively clean CAD models based, as well as with real
+            world noisy scans, that the proposed method achieves state of the art results on
+            benchmarks for 3D classification (ModelNet40) , part segmentation (ShapeNet) and
+            semantic segmentation (Stanford 3D Indoor Scenes Dataset). We also show that the
+            proposed network achieves faster training convergence, e.g. ~40% less epochs for
+            classification.} 
 }
 
 @inproceedings{sava_eccv20,
