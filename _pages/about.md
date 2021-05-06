@@ -2,7 +2,7 @@
 layout: about
 permalink: /
 title: Gaurav Sharma 
-description: Visiting Assistant Professor, <a href="https://www.cse.iitk.ac.in">CSE, IIT Kanpur</a> 
+description: Visiting Assistant Professor, <a href="https://www.cse.iitk.ac.in">CSE, IIT Kanpur</a> <br/> grvsharma [at] gmail [dot] com
 
 profile:
   align: right
